@@ -19,9 +19,9 @@ Just your computer and your own model will suffice!
 The test suite is strongly applicable to various systems.
 
 # Demonstration Test Suite Construction Examples
-Demo part 1: to generate a large number of samples
-Demo part 2: to optimise the best composition of test suite
-Demo part 3 & 4: extra experimental details.
+* Demo part 1: to generate a large number of samples
+* Demo part 2: to optimise the best composition of test suite
+* Demo part 3 & 4: extra experimental details.
 
 
 ## Face recognition systems
