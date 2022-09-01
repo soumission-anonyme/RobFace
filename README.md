@@ -1,5 +1,13 @@
 # RobFace
 
+## Try the test suite construction examples here!
+* [Demo part 1](Demo_test_suite_construction_part_1.ipynb): to generate a large number of samples
+* [Demo part 2](Demo_test_suite_construction_part_2.ipynb): to optimise the best composition of test suite
+* [Demo part 3](Demo_test_suite_construction_part_3.ipynb) & [4](Demo_test_suite_construction_part_4.ipynb): extra experimental details.
+
+
+## Abstract
+
 Face recognition is a common authentication technology in practice, which requires high adversarial robustness. It is thus desirable to have an efficient and easy-to-use method for evaluating the robustness of (possibly third-party) trained face recognition systems. Existing approaches to evaluating robustness of face recognition systems are either based on empirical evaluation (e.g., measuring attacking success rate using state-of-the-art attacking methods) or formal analysis (e.g., measuring the Lipschitz constant). While the former demands significant user-efforts and expertise, the latter is extremely time-consuming. In pursuit of a comprehensive, efficient, easy-to-use and scalable estimation of the robustness of face recognition systems, we take an old-school alternative approach and introduce RobFace, i.e., an optimised test suite containing transferable adversarial face images which are designed to comprehensively evaluate a face recognition system's robustness along a variety of dimensions. RobFace is model-agnostic and yet tuned such that it provides robustness estimation which is consistent with model-specific empirical evaluation or formal analysis. We support this claim through extensive experimental results with various perturbations on multiple face recognition systems. To our knowledge, RobFace is the first model-agnostic robustness estimation test suite.
 
 About the name:
@@ -18,10 +26,7 @@ About the name:
 Just your computer and your own model will suffice!
 The test suite is strongly applicable to various systems.
 
-# Demonstration Test Suite Construction Examples
-* Demo part 1: to generate a large number of samples
-* Demo part 2: to optimise the best composition of test suite
-* Demo part 3 & 4: extra experimental details.
+
 
 
 ## Face recognition systems
